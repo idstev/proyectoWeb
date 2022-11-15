@@ -1,0 +1,52 @@
+
+.container-fluid {
+
+    padding-top: 70px;
+
+    padding-bottom: 70px;
+
+}
+
+.img-joyeria {
+    width: 300px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #ae8457 !important;
+}
+
+.navbar-nav li a.activo:before,
+.navbar-nav li a:hover:before {
+    content: " ";
+    border-bottom: 2px solid #ae8457;
+    position: absolute;
+    bottom: 10px;
+    width: 60%;
+}
+
+p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+#ventanas-secuandarias {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.colorLetter {
+    color: #ae8457;
+}
